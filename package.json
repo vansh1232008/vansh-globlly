@@ -4,7 +4,7 @@
   "description": "A secure file transfer web app using Node.js and MongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",  // Start the server
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Your Name",
@@ -18,9 +18,9 @@
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "mongodb": "^3.6.6",
-    "connect-mongo": "^4.6.0" // Added connect-mongo dependency
+    "connect-mongo": "^4.6.0"
   },
   "engines": {
-    "node": "18.x" // Specify a stable Node.js version for deployment
+    "node": "18.x"
   }
 }
