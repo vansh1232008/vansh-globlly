@@ -1,12 +1,13 @@
 {
   "name": "file-transfer-web-app-nodejs-mongodb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A secure file transfer web app using Node.js and MongoDB",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",  // Start the server
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -16,6 +17,10 @@
     "express-session": "^1.17.1",
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
-    "mongodb": "^3.6.6"
+    "mongodb": "^3.6.6",
+    "connect-mongo": "^4.6.0" // Added connect-mongo dependency
+  },
+  "engines": {
+    "node": "18.x" // Specify a stable Node.js version for deployment
   }
 }
