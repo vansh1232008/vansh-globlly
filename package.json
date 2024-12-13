@@ -2,9 +2,10 @@
   "name": "file-transfer-web-app-nodejs-mongodb",
   "version": "1.0.0",
   "description": "A secure file transfer web app using Node.js and MongoDB",
-  "main": "server.js",
+  "main": "api/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node api/server.js",
+    "build": "echo 'No build script required'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Your Name",
